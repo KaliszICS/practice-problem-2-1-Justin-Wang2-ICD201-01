@@ -1,8 +1,9 @@
 
 
 def q1(): 
-  #Write Assignment code here
-
+  _num_ = int(input("Input an integer: "))
+if (num % 2) == 0:
+    print "_num_ is even"
 
 def q2(): 
   #Write Assignment code here
