@@ -7,7 +7,6 @@ def q1():
   if num % 2 != 0:
     print(f"{num} is odd")
 
-
 def q2(): 
   name = input("in: ")
   if name == "Kalisz":
