@@ -4,7 +4,7 @@ def q1():
   num = int(input("in: "))
   if num % 2 == 0:
     print (f"{num} is even")
-  if(num % 2 != 0:
+  if num % 2 != 0:
     print(f"{num} is odd")
 
 
@@ -14,6 +14,7 @@ def q2():
     print("teacher")
   if name != "Kalisz":
     print("student")
+
 
 
 
