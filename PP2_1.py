@@ -1,17 +1,26 @@
 
 
 def q1(): 
-  _num_ = int(input("Input an integer: "))
-if (num % 2) == 0:
-    print "_num_ is even"
+  num = int(input("please enter a number: "))
+  if (num % 2) == 0:
+    print (f"{num} is even")
+  if (num % 2) > 0:
+    print(f"{num} is odd")
+  if (num % 2) < 0:
+    print(f"{num} is odd")
 
 def q2(): 
-  #Write Assignment code here
+name = str(input("enter something: "))
+  if name == "Kalisz":
+    print("teacher")
+  if name != "Kalisz":
+    print("student")
+
 
 
 
 #Do not alter the following code
 #Comment out the following code when running your tests
 
-q1()
-q2()
+#q1()
+#q2()
